@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 class Income {
   int? idIncome;
   String descript;
