@@ -11,6 +11,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      home: Scaffold(
+        appBar: null,
+        body: Center(child: Text('app')),
+      ),
     );
   }
 }
